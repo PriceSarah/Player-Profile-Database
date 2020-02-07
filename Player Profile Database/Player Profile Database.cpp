@@ -8,6 +8,7 @@ using namespace std;
 
 int main()
 {
-  
+	Database database;
+	database.start();
 }
 
