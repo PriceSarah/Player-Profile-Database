@@ -4,7 +4,7 @@
 
 Player::Player()
 {
-	strcpy_s(m_name, "nameless hero");
+	strcpy_s(m_name, "unnamed");
 	m_score = 10;
 }
 

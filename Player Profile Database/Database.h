@@ -1,4 +1,6 @@
 #pragma once
+#include "Player.h"
+
 class Database
 {
 public:
@@ -27,7 +29,7 @@ private:
 	int m_playerCount = 1;
 
 	int m_tempPlayerCount = 1;
-	Player* m_tempPlayers;/.: 
+	Player* m_tempPlayers;
 
 	int binSearch(char* key);
 
